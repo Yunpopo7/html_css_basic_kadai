@@ -1,4 +1,4 @@
-body {
+html {
   font-family: "Arial", "Meiryo", sans-serif;
   font-size: 20px;
   text-align: center;
@@ -6,7 +6,6 @@ body {
 
 .blue {
   color: skyblue;
-  1
 }
 
 .pink {
@@ -14,9 +13,9 @@ body {
 }
 
 h1 {
-  font-size: 40px;
-  font-family: sans-serif;
-  letter-spacing: 48px;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1.2em;
   text-shadow: 3px 1px 2px orange;
   border-bottom: solid 3px rgb(115, 115, 114);
 }
@@ -25,8 +24,5 @@ h1 {
   font-weight: bold;
 }
 
-.josefin-sans-<uniquifier> {
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+
+  
