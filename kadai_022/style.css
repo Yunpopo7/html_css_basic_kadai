@@ -25,22 +25,25 @@ main {
 
 #parent {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .contents {
-  border: solid rgb(238, 204, 204);
+  border: 3px solid rgb(238, 204, 204);
   flex-basis: 25%;
   padding: 10px 15px;
-  margin: 20px;
+  margin: 20px 0;
   text-align: center
 }
 
 h2::before {
   font-size: 25px;
-  border-bottom: dotted 3px rgb(236, 122, 122);
   content: "●";
   color: rgb(239, 111, 139);
+}
+
+h2 {
+  border-bottom: dotted 3px rgb(236, 122, 122);
 }
 
 p:nth-of-type(2)::first-letter {
@@ -48,7 +51,7 @@ p:nth-of-type(2)::first-letter {
   color: rgb(97, 206, 249);
 }
 
-.img {
+.contents img {
   width: 70%;
   margin: 10px;
   padding: 0px;
@@ -71,7 +74,7 @@ a:hover {
   color: rgb(245, 178, 168);
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
   h2 {
     font-size: 30px;
   }
@@ -81,7 +84,6 @@ a:hover {
   }
 
   #parent {
-    display: flex;
     flex-direction: column;
   }
 }
